@@ -1,0 +1,34 @@
+.chat_item{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid whitesmoke;
+    cursor: pointer;
+
+}
+.chat_item .user{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;margin: 10px;
+}
+.chat_item:hover .user{
+    opacity: 0.7;
+}
+
+.chat_item:hover{
+    color: rgb(1, 77, 241);
+}
+.chat_item div > p:nth-child(2){
+    font-size: 12px;
+}
+.chat_item div > p:nth-child(1){
+   font-weight: 600;
+   font-size: 14px;
+}
+.MuiAvatar-root{
+    height: 30px !important;
+    width: 30px !important;
+   margin: 10px; 
+}

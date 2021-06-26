@@ -1,39 +1,29 @@
-.App {
-  text-align: center;
+.App{
+    height: 100vh;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+*{
+    margin:0;
+    padding: 0;
+}
+.app__body{
+    background: url(https://www.pngkey.com/png/full/859-8598072_picture-freeuse-library-silhouette-at-getdrawings-cell.png) no-repeat 50%;
+    width: 249px!important;
+    height: 400px!important;
+    padding: 74px;
+    background-size: contain;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app__background{
+    background: #fff;
+    height: 400px;
+    width: 250px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
-  }
-}
-
-.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-}
-
-.App-link {
-  color: rgb(112, 76, 182);
-}
-
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
-}
+/* .MuiSvgIcon-root{
+    color: #fff;;
+} */

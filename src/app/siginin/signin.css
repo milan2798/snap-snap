@@ -1,0 +1,23 @@
+.signin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color: yellow;
+}
+.signin_btn{
+    padding: 10px;
+    border: 1px solid black;
+    transition: background-color 0.5s  ;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.signin_btn:hover{
+    border: 1px solid black;
+    color:white;
+    background-color: black;
+}
+.snap_icon{
+    font-size: 50px !important;
+}

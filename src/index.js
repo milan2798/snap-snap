@@ -5,6 +5,12 @@ import App from './App';
 import { store } from './app/store';
 import { Provider } from 'react-redux';
 import * as serviceWorker from './serviceWorker';
+// import en from 'javascript-time-ago/locale/en'
+// import ru from 'javascript-time-ago/locale/ru'
+// import TimeAgo from 'javascript-time-ago'
+
+// TimeAgo.addDefaultLocale(en)
+// TimeAgo.addLocale(ru)
 
 ReactDOM.render(
   <React.StrictMode>

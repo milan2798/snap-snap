@@ -1,0 +1,15 @@
+.story{
+    position: relative;
+}
+.close_story{
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+.timer{
+    position: absolute !important;
+    top: 2%;
+    right: 2%;
+}

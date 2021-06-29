@@ -1,44 +1,37 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+# snap-snap 📷
 
-## Available Scripts
+I have implemented snap functionality using React,Redux firebase Authentication,Firebase Storage ,Firestore,React Router 
 
-In the project directory, you can run:
+## Functionality
 
-### `npm start`
+After login into the App you can click the  snap using 'react-webcam' npm package and storing it into firebase storage and in chats screen 
+you can see the shared picture by loggedin User.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🔴 Live Demo : https://snapchat-clone-2104.web.app/
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Login 🔐
 
-### `npm test`
+Firebase google authentivation has been use for login.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Image Storage 
 
-### `npm run build`
+Firebase storage implemented for image storage
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## General Info. 📩
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+User info is saved usinf Firebase Firestore
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### Login Screen. 
+Screenshot 2021-06-29 at 10.25.40 PM![Screenshot 2021-06-29 at 10 25 40 PM](https://user-images.githubusercontent.com/41838197/123838562-bd6f3300-d929-11eb-9ec0-8e77b623cc9a.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### chat Screen.
+Screenshot 2021-06-29 at 10.26.12 PM![Screenshot 2021-06-29 at 10 26 12 PM](https://user-images.githubusercontent.com/41838197/123839253-89e0d880-d92a-11eb-8c88-0514d61f15d8.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Snap:
+Screenshot 2021-06-29 at 10.27.13 PM![Screenshot 2021-06-29 at 10 27 13 PM](https://user-images.githubusercontent.com/41838197/123839305-99602180-d92a-11eb-904f-666c2347a2e6.png)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+If you have any query or doubt you can react out to me at : zadfiyamilan112@gmail.com
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+P.s : I have used all the library and Photos for learning purpose only 
